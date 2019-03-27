@@ -1,6 +1,6 @@
 angular.module("app",[]).controller("MainController",function(){
 	this.tasks=[
-{  name:"Call Philip",
+{  name:"Call Emma",
    done:false
 },
 
@@ -9,12 +9,12 @@ angular.module("app",[]).controller("MainController",function(){
 },
 
 {
-	name:"Make a video call with nephew",
+	name:"Make a video call with Nephew",
 	done:false
 },
 
 {
-	name:"Check your mailbox",
+	name:"Check  mail from Glory",
 	done:false
 },
 
@@ -53,7 +53,7 @@ this.delete = function (task) {
 		number:"O7032111111"
 	},
 	{
-		name: "Ikedi Kevin",
+		name: "Mimi Kevin",
 		number:"O8052333333"
 	},
 	{
@@ -67,6 +67,11 @@ this.delete = function (task) {
 	{
 		name: "Judas Crux",
 		number:"O8066419000"
+	},
+	{	name: "Nephew",
+	 	number: "09034217651"
+		
+		
 	}
 
 
